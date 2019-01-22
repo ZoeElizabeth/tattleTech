@@ -15,13 +15,13 @@ body {
   flex: 1;
 }
 
-header, article, aside {
+article, aside {
   padding: 1em;
 }
 
 header {
-  background: yellowgreen;
-  height: 20vh;
+  background: #3AAFA9;
+  height: 5vh;
 }
 
 /*# sourceMappingURL=App.css.map */

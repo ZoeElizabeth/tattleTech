@@ -1,3 +1,9 @@
+$color1: #17252A;
+$color2: #2b7A78;
+$color3: #3AAFA9;
+$color4: #DEF2F1;
+$color5: #FEFFFF;
+$color6: #A49CBB;
 * {
   box-sizing: border-box; 
  }
@@ -11,10 +17,10 @@
  .main > article {
    flex: 1;
  }
- header, article, aside {
+ article, aside {
    padding: 1em;
  }
  header{
-   background: yellowgreen;
-   height: 20vh;
+   background: $color3;
+   height: 5vh;
  }
