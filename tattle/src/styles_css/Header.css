@@ -1,11 +1,19 @@
 .mainHeader {
   display: inline;
+  margin: 0;
 }
 
 h4 {
-  margin: 0;
-  padding-top: 0.7em;
   color: #FEFFFF;
+  display: inline-block;
+  margin: 0;
+}
+
+.logo {
+  margin-top: 5px;
+  height: 2em;
+  border: #fff solid;
+  border-radius: 3em;
 }
 
 /*# sourceMappingURL=Header.css.map */

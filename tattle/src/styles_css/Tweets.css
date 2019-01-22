@@ -1,3 +1,57 @@
+html {
+  box-sizing: border-box;
+}
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.tweet {
+  height: 3em;
+  margin: 2em;
+  float: top;
+  flex-direction: column;
+}
+
+.tweet article {
+  width: 100%;
+  opacity: 0.5;
+  display: flex;
+  border: 1px solid #a0a0a0;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+.tweet article:hover {
+  opacity: 1;
+  float: center;
+  width: 100%;
+}
+
+.tweet .userId {
+  float: right;
+  font-weight: 300;
+}
+
+.tweet .userTweet {
+  padding-top: 2em;
+  font-weight: 300;
+  padding-bottom: 2em;
+}
+
+.tweet aside {
+  float: center;
+  background-color: #eee;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 5px;
+}
+
+.tweet .footer {
+  padding: 5px;
+  font-size: 75%;
+  font-weight: 300;
+  border-top: 1px solid #a0a0a0;
+}
 
 /*# sourceMappingURL=Tweets.css.map */

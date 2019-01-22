@@ -14,13 +14,14 @@ class App extends Component {
           <Header/>
         </header>
           <div>
-          <div className="main">
+          <div className="mainApp">
+
+            <aside className="asideApp">
+            <Aside/>
+            </aside>
             <article>
               <Tweets/>
             </article>
-            <aside>
-            <Aside/>
-            </aside>
           </div>
         </div>
       </div>
