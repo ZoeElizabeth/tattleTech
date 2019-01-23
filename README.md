@@ -31,6 +31,8 @@ Set up component files for Header, Aside, Text Bubbles
 
 Add Each Component to App Js to, can now work on componets separatly.
 
+Designed tweet container
+
 Looking To set up MongoDB for database
 (More Familar with SQL and Knex)
 
