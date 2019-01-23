@@ -14,10 +14,10 @@ $color6: #A49CBB;
    display: flex;
    min-height: calc(100vh - 40vh);
  }
- articleApp > .mainApp {
+ .articleApp > .mainApp {
    flex: 1;
  }
- articleApp, aside {
+ .articleApp, aside {
    padding: 1em;
  }
  aside {

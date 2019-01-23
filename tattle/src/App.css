@@ -6,18 +6,18 @@ body {
   margin: 0;
 }
 
-.main {
+.mainApp {
   display: flex;
   min-height: calc(100vh - 40vh);
 }
 
-article > .main {
+.articleApp > .mainApp {
   flex: 1;
 }
-/* 
-article, aside {
+
+.articleApp, aside {
   padding: 1em;
-} */
+}
 
 aside {
   max-width: 15em;

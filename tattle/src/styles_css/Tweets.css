@@ -29,7 +29,6 @@ html {
 }
 
 .tweet .userId {
-  float: right;
   font-weight: 300;
 }
 
@@ -39,12 +38,12 @@ html {
   padding-bottom: 2em;
 }
 
-.tweet aside {
-  float: center;
+.aside {
+  padding-top: 25px;
   background-color: #eee;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-  padding: 5px;
+  padding: 1em;
 }
 
 .tweet .footer {

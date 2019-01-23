@@ -1,19 +1,25 @@
 .mainHeader {
   display: inline;
   margin: 0;
+  top: 0;
 }
 
 h4 {
   color: #FEFFFF;
-  display: inline-block;
+  text-align: center;
   margin: 0;
+  margin-bottom: 10px;
+  line-height: 0;
 }
 
 .logo {
-  margin-top: 5px;
+  clear: left;
+  margin-top: 7px;
   height: 2em;
+  width: 2em;
   border: #fff solid;
   border-radius: 3em;
+  line-height: 0;
 }
 
 /*# sourceMappingURL=Header.css.map */
